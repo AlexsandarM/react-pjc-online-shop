@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.header__nav {
+  background-color: #131921;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__logo {
+  color: #fff;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header__logo i {
+  padding: 5px;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+}
+.header__searchInput {
+  height: 12px !important;
+  width: 100%;
+  padding: 10px !important;
+  border: none;
+}
+.header__searchIcon {
+  background-color: #00587a;
+  padding: 5px;
+  height: 22px !important;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.header__optionBasketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
