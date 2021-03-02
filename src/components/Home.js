@@ -21,6 +21,13 @@ const Home = () => {
           rating={5}
           image={productImg}
         />
+        <Product
+          id='124'
+          title='New Product 2'
+          price={9.99}
+          rating={3}
+          image={productImg}
+        />
       </div>
     </div>
   );
